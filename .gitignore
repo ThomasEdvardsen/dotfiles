@@ -1,0 +1,31 @@
+# Brukerhistorikk og sensitive ting
+.zsh_history
+.zsh_sessions
+.zshrc.backup*
+.p10k.zsh.backup*
+.gitconfig.backup*
+
+# Midlertidige/redigerte versjoner
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# macOS-systemfiler
+.DS_Store
+
+# VS Code settings som ikke er ment for deling
+.vscode/
+.code-workspace
+
+# IntelliJ & JetBrains IDE-filer
+.idea/
+*.iml
+
+# SSH-nøkler (legg aldri til disse!)
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+
