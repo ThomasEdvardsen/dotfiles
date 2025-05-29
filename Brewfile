@@ -1,0 +1,12 @@
+brew "git"
+brew "stow"
+brew "python"
+brew "openjdk"
+brew "docker"
+brew "docker-compose"
+brew "htop"
+brew "jq"
+
+cask "visual-studio-code"
+cask "intellij-idea-ce"
+cask "postman"

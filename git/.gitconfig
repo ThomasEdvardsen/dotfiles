@@ -1,0 +1,13 @@
+[user]
+  name = Thomas Edvardsen
+  email = thomas.edvardsen@nb.no
+[core]
+  editor = code --wait
+  excludesfile = ~/.gitignore_global
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+[color]
+  ui = auto
