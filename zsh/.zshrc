@@ -11,6 +11,9 @@ plugins=(git docker python vscode)
 source $ZSH/oh-my-zsh.sh
 
 export PATH="/opt/homebrew/bin:$PATH"
+# Homebrew OpenJDK
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
 
 alias gst='git status'
 alias gco='git checkout'
