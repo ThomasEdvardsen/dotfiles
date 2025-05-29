@@ -8,5 +8,5 @@ brew "htop"
 brew "jq"
 
 cask "visual-studio-code"
-cask "intellij-idea-ce"
+cask "intellij-idea"
 cask "postman"
