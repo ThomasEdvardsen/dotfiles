@@ -11,17 +11,20 @@ cd ~/dotfiles
 ```
 
 This script will:
-- Install Homebrew and GNU Stow if needed
+- Install Homebrew and Stow if needed
 - Install Oh My Zsh and Powerlevel10k
 - Symlink config files using `stow`
 - Run `brew bundle` to install tools and apps
 
-## Requirements
+## Homebrew
 
-- macOS
-- Homebrew
-- Git
-- A terminal that supports Zsh (e.g. Ghostty, iTerm2)
+```bash
+#Install and upgrade (by default) all dependencies from the Brewfile
+brew bundle [--file=Brewfile]
+
+#Write all installed casks/formulae/images/taps into a Brewfile
+brew bundle dump --file=~/dotfiles/Brewfile --force [--describe]
+```
 
 ## Tips
 
