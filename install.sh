@@ -52,9 +52,6 @@ fi
 echo -e "${YELLOW}Oppretter symlinks med Stow...${NC}"
 stow zsh
 stow git
-[ -d vscode ] && stow vscode
-[ -d intellij ] && stow intellij
-
 
 # --- Brewfile ---
 echo -e "${YELLOW}Installerer Homebrew-pakker fra Brewfile...${NC}"
